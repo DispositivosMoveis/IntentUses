@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Uso de Intents</string>
+    <string name="buttonUm">Abrir WebView</string>
+    <string name="buttonDois">Listar Contatos</string>
+    <string name="buttonTres">Ligar para número</string>
+    <string name="buttonFour">Enviar SMS</string>
+</resources>
