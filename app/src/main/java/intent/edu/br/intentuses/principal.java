@@ -17,6 +17,7 @@ public class principal extends AppCompatActivity {
     private Button buttonDois;
     private Button buttonTres;
     private Button buttonQuatro;
+    private Button buttonCinco;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class principal extends AppCompatActivity {
         buttonDois = (Button) findViewById(R.id.buttonDois);
         buttonTres = (Button) findViewById(R.id.buttonTres);
         buttonQuatro = (Button) findViewById(R.id.buttonFour);
+        buttonCinco = (Button) findViewById(R.id.buttonCinco);
 
         buttonUm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +61,14 @@ public class principal extends AppCompatActivity {
             public void onClick(View v) {
                 Uri uri = Uri.fromParts("sms","933472020",null);
                 Intent intent = new Intent(Intent.ACTION_VIEW,uri);
+                startActivity(intent);
+            }
+        });
+
+        buttonCinco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("MINHA_ACAO");
                 startActivity(intent);
             }
         });

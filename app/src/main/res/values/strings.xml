@@ -4,4 +4,5 @@
     <string name="buttonDois">Listar Contatos</string>
     <string name="buttonTres">Ligar para número</string>
     <string name="buttonFour">Enviar SMS</string>
+    <string name="buttonCinco">Chamar Tela</string>
 </resources>
